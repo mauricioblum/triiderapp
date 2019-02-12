@@ -1,0 +1,23 @@
+.nav-menu {
+  height: inherit;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer {
+  height: inherit;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+a {
+  text-decoration: none !important;
+  color: #565656;
+}
+
+.logo {
+  float: left;
+  width: 100px;
+  height: 29px;
+  background: url('https://www.triider.com.br/img/logo_header.svg') no-repeat center;
+}
