@@ -1,0 +1,40 @@
+.pedido{
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 25px; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.preco{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 30px;
+    color: #565656;
+}
+
+.hired {
+    background: #4983EF;
+    color: white;
+}
+
+.hire-btn{
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    line-height: 23px;
+    font-size: 14px;
+    background:none;
+    border: 0;
+    color: #EF7E31;
+}

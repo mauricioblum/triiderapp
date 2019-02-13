@@ -1,13 +1,20 @@
 .nav-menu {
   height: inherit;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
+  border: 1px solid #CBCBCB;
+  box-sizing: border-box;
 }
 
 .footer {
   height: inherit;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 15px;
+  margin-top:25px;
+  border: 1px solid #CBCBCB;
+  box-sizing: border-box;
+}
+
+.breadcrumbs {
+  padding: 15px;
 }
 
 a {
@@ -21,3 +28,11 @@ a {
   height: 29px;
   background: url('https://www.triider.com.br/img/logo_header.svg') no-repeat center;
 }
+
+.graybg{
+  background: rgba(238, 238, 238, 0.5);
+}
+.whitebg{
+  background-color: white;
+}
+

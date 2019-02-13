@@ -1,23 +1,30 @@
-.title {
-    float:left;
-}
-
 
 .quotes{
     text-align:center;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+
 }
 
 .quote{
-    border: 1px solid;
-    max-width: 300px;
-    width: 200px;
+    border: 1px solid #CBCBCB;
+    border-radius: 3px;
+    box-sizing: border-box;
     margin-top: 5px;
     margin-left: 2px;
     margin-bottom: 5px; 
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    
+
 }
 
 .quote-img{
@@ -25,7 +32,14 @@
 }
 
 .quote-button{
-    color: #f8990b;
+    background: none;
+
+}
+
+.quote-seeButton{
+    background: #EF7E31;
+    border-radius: 1px;
+    color: white;
 }
 
 .pedido {
@@ -41,17 +55,83 @@
 }
 
 .avatar-quote{
-    width:50%;
+    width:40px;
     border-radius: 50%;
-    margin: 0 auto;
     
 }
 
 .fotos-orcamento{
-    margin-bottom:5px;
-    
+    margin:0 auto;    
 }
 
 .ratings {
     display: inline-block;
 }
+
+.max {
+    width: 100%;
+    word-spacing: 240px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #565656;
+
+
+}
+
+.date {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #565656;
+}
+h4.max{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #565656;
+    
+    
+}
+
+.status-label{
+    width: 100%;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.cancelado {
+    width: 100%;
+    background: #EF4949;
+}
+.contratado {
+    width: 100%;
+    background: #4983EF;
+}
+.finalizado {
+    width: 100%;
+    background: #59BC5C;
+
+}
+.footer-item{
+    width: 248px;
+}
+.vertical-line{
+    height: 70px;
+    size: 20px;
+    border: 2px solid #EF7E31;
+
+}
+
